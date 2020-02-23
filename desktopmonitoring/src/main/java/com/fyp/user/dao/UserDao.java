@@ -5,8 +5,9 @@ import com.fyp.admin.models.AddDeparmentModel;
 import com.fyp.user.models.HistoryModel;
 import com.fyp.user.models.LoginModel;
 import com.fyp.user.models.SignUpModel;;
-
+//UserDao Class
 public interface UserDao{
+//Public attributes
 	public void signUp(SignUpModel signUp);
 	public int login(LoginModel login);
 	public String getuserid(LoginModel login);
