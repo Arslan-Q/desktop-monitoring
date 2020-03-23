@@ -1,0 +1,21 @@
+Highcarts.chart('container',{
+	chart:{
+		type:'line',
+		width:500
+	},
+	title:{
+		text:"test",
+	},
+	xAxis:{
+		categories:["a","b","c","d"]
+	},
+	tooltip:{
+		formatter:function(){
+			console.log(this);
+		},
+		series:[{
+			data:[10,20,30,40]
+		}]
+	}
+
+});
